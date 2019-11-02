@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "gba-dev",
+  "version": "0.3.0",
+  "description": "Toolchain for Game Boy Advance development with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "install": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/gba-dev.git"
+  },
+  "keywords": [
+    "Game",
+    "Boy",
+    "Gameboy",
+    "GBA",
+    "TypeScript",
+    "C"
+  ],
+  "author": "Austin Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Templarian/gba-dev/issues"
+  },
+  "homepage": "https://github.com/Templarian/gba-dev#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  }
+}

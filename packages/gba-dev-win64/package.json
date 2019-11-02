@@ -1,0 +1,17 @@
+{
+  "name": "gba-dev-win64",
+  "version": "2.1.4",
+  "description": "Dist gba-dev toolchain win64 only!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "author": "",
+  "license": "ISC"
+}
