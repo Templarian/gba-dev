@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "gba-dev start",
     "build": "gba-dev build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

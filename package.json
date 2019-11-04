@@ -6,6 +6,9 @@
   "main": "index.js",
   "scripts": {
     "install": "lerna bootstrap",
+    "start": "cd packages/example && npm run start",
+    "build": "cd packages/example && npm run launch",
+    "launch": "cd packages/example && npm run launch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

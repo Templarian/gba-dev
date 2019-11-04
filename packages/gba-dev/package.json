@@ -1,31 +1,35 @@
 {
-    "name": "gba-dev",
-    "version": "0.3.0",
-    "description": "Toolchain for Game Boy Advance development with TypeScript.",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Templarian/gba-dev.git"
-    },
-    "keywords": [
-      "Game",
-      "Boy",
-      "Gameboy",
-      "GBA",
-      "TypeScript",
-      "C"
-    ],
-    "author": "Austin Andrews",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Templarian/gba-dev/issues"
-    },
-    "homepage": "https://github.com/Templarian/gba-dev#readme",
-    "devDependencies": {
-      "ts2c": "^2.2.6"
-    }
+  "name": "gba-dev",
+  "version": "0.3.0",
+  "description": "Toolchain for Game Boy Advance development with TypeScript.",
+  "main": "index.js",
+  "bin": {
+    "gba-dev": "./bin/gba-dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/gba-dev.git"
+  },
+  "keywords": [
+    "Game Boy",
+    "Game Boy Advance",
+    "GBA",
+    "TypeScript",
+    "C"
+  ],
+  "author": "Austin Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Templarian/gba-dev/issues"
+  },
+  "homepage": "https://github.com/Templarian/gba-dev#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs-interactive": "^3.0.0",
+    "ts2c": "^2.2.6",
+    "gba-dev-win64": "2.1.4"
+  },
+  "optionalDependencies": {
+    "gba-dev-win64": "2.1.4"
   }
-  
+}
